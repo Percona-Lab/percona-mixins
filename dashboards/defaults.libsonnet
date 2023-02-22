@@ -33,10 +33,10 @@
       templating+: {
         list: std.map(
           function(template)
-            if template.type == "datasource" then
+            if template.type == 'datasource' then
               template {
                 current+: {
-                  text: "default",
+                  text: 'default',
                   value: perconaMixin._config.datasourceName
                 },
               }
