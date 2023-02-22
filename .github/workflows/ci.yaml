@@ -60,14 +60,15 @@ jobs:
       with:
         go-version: ${{ env.golang-version }}
     - run: make --always-make fmt && git diff --exit-code
-  unit-tests:
-    runs-on: ubuntu-latest
-    name: Unit tests
-    steps:
-    - uses: actions/checkout@v3
-      with:
-        persist-credentials: false
-    - uses: actions/setup-go@v3
-      with:
-        go-version: ${{ env.golang-version }}
-    - run: make --always-make vendor test
+# Tests could be added: https://github.com/kubernetes-monitoring/kubernetes-mixin/blob/master/tests.yaml
+#  unit-tests:
+#    runs-on: ubuntu-latest
+#    name: Unit tests
+#    steps:
+#    - uses: actions/checkout@v3
+#      with:
+#        persist-credentials: false
+#    - uses: actions/setup-go@v3
+#      with:
+#        go-version: ${{ env.golang-version }}
+#    - run: make --always-make vendor test

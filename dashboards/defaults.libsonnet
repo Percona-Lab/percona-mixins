@@ -37,7 +37,7 @@
               template {
                 current+: {
                   text: 'default',
-                  value: perconaMixin._config.datasourceName
+                  value: perconaMixin._config.datasourceName,
                 },
               }
             else

@@ -2,6 +2,17 @@
 
 This project is a Prof of Concept to source, build and test Percona Dashboards, Alerts, Rules, and other configurations for the PMM.
 
+## Build
+
+You need to have Go 1.19 and make installed.
+
+```sh
+git clone https://github.com/Percona-Lab/percona-mixins.git
+cd percona-mixins
+
+make vendor generate
+```
+
 # Goals
 
 Validate [Monitoring Mixins](https://monitoring.mixins.dev/) as a viable solution to meet such architectural characteristics:
