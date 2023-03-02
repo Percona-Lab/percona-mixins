@@ -1,7 +1,7 @@
 {
   _config+:: {
     // Selectors
-    nodeExporterSelector: 'node_name!=""',
+    #nodeExporterSelector: 'node_name!=""',
     fsSelector: 'fstype!~"rootfs|selinuxfs|autofs|rpc_pipefs|tmpfs"',
 
     // Support for Grafana 7.2+ `$__rate_interval` instead of `$__interval`

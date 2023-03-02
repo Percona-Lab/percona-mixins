@@ -7,7 +7,7 @@
       timezone: perconaMixin._config.grafanaPercona.grafanaTimezone,
       refresh: perconaMixin._config.grafanaPercona.refresh,
       tags: perconaMixin._config.grafanaPercona.dashboardTags,
-
+/*
       rows: [
         row {
           panels: [
@@ -45,7 +45,7 @@
           super.list
         ),
       },
-
+*/
     }
     for filename in std.objectFields(grafanaDashboards)
   },
