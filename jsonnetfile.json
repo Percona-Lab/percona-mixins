@@ -22,11 +22,11 @@
     {
       "source": {
         "git": {
-          "remote": "https://github.com/anton-bystrov/postgres_exporter.git",
+          "remote": "https://github.com/prometheus-community/postgres_exporter.git",
           "subdir": "postgres_mixin"
         }
       },
-      "version": "another-dashboard"
+      "version": "master"
     },
     {
       "source": {
